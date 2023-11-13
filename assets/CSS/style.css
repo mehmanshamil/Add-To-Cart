@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    width: 8rem;
+}
+
+#menu {
+    display: flex;
+    gap: 25px;
+}
+
+#menu li a {
+    color: #fff;
+    transition: 1s;
+}
+
+#menu li a:hover {
+    color: yellow;
+}
+
+/* header */
+
+/* section */
+#cleanSlick {
+    background-image: url("https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.clean {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+#pixelPerf {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.point {
+    color: yellow;
+}
+
+.buttons {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#learn {
+    background: transparent;
+    color: #fff;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    transition: 1s;
+}
+
+#learn:hover {
+    border: 1px solid yellow;
+    color: yellow;
+    cursor: pointer;
+}
+
+#dowland {
+    color: #fff;
+    padding: 10px 30px;
+    transition: 1s;
+    background: #f1d204;
+    letter-spacing: 1px;
+    transition: 1s;
+    border: none;
+}
+
+#dowland:hover {
+    background-color: mediumblue;
+    cursor: pointer;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.product {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+}
+.product button{
+    width: 150px;
+    padding: 10px;
+    color: #fff;
+    background-color: #f1d204;
+    border: none;
+    transition: 1s;
+}
+.product button:hover{
+background-color: mediumblue;
+cursor: pointer;
+}
+.products-cotainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-show{
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    margin: 25px 0;
+}
+.product-show p{
+    font-size: 1.3rem;
+    width: 200px;
+    position: relative;
+}
+.shop-icon{
+    color: mediumblue;
+    transition: 1s;
+}
+.shop-icon:hover{
+color: #f1d204;
+cursor: pointer;
+}
+#total{
+    position: absolute;
+    top: -15px;
+    color: red;
+}
+
+/* section */

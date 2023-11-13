@@ -1,0 +1,32 @@
+header{
+    position: relative;
+}
+.sentence-head {
+    color: blue;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+#total {
+    position: absolute;
+}
+#products button:hover{
+    background-color: red;
+}
+#product-head{
+    display: flex;
+    justify-content: center;
+}
+#removeAll{
+    padding: 15px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    transition: 1s;
+}
+#removeAll:hover{
+    background-color: orange;
+    cursor: pointer;
+}
